@@ -4,13 +4,13 @@
   "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
-    "brfs": "0.0.8",
-    "browserify": "~3.24.10",
-    "browserify-shim": "~3.2.2",
-    "express": "3.3.5",
+    "brfs": "2.0.1",
+    "browserify": "~16.2.3",
+    "browserify-shim": "~3.8.14",
+    "express": "4.16.4",
     "imagemagick": "^0.1.3",
     "jpeg": "^2.0.0",
-    "level": "0.18.0"
+    "level": "4.0.0"
   },
   "scripts": {
     "start": "browserify . -d -o public/bundle.js && node index.js",
